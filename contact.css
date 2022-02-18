@@ -1,0 +1,47 @@
+/*Contact Page*/
+
+location, contact {
+    align-content: center;
+    display: inline-flex;
+    height: 450px;
+    margin: 2em;
+    width: 95%;
+}
+
+contact {
+    height: 300px;
+}
+
+location p, contact p, contact a {
+    background-color: #be3e3e;
+    color: #fff5ef;
+    font-size: 1.4em;
+    margin: 0.8em;
+    overflow-x: hidden;
+    text-align: center;
+    width: 90%;
+}
+
+visit, map, call, fax, email {
+    align-content: center;
+    background-color: #be3e3e;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+call, fax, email {
+    width: 23%;
+}
+
+.title {
+    font-size: 1.8em;
+}
+
+img {
+    background-color: #be3e3e;
+    height: 50px;
+    margin-top: 0.8em;
+}
