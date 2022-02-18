@@ -1,13 +1,16 @@
 /*General*/
 
 * {
-    background-color: #eff7ff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     font-style: normal;
     margin: 0 auto;
     text-decoration: none;
   }
+
+body {
+    background-color: #eceef0;  
+}
 
 a:hover {
     color: #292100;
