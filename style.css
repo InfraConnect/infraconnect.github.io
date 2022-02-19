@@ -46,23 +46,31 @@ header a {
     margin: 5px;
 }
 
-/*Main Section*/
+/*Page Banner*/
 
-main {
-    justify-content: center;
+pagebanner p {
+    background-color: hsla(0, 95%, 7%, 0.5);
+    background-image: url('banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    font-size: 4em;
+    height: 5em;
+    line-height: 5em;
     position: relative;
-    top: 2.5em;
+    text-align: center;
+    top: 0.5em;
+    width: 100%;
 }
 
 /*Page Header*/
 
 pageheader p {
-    background-color: hsla(0, 95%, 7%, 0.5);
     color: hsl(0, 0%, 100%);
     font-size: 3.2em;
     height: 4em;
     line-height: 4em;
-    margin-top: 0.65em;
+    margin-top: 1.2em;
     text-align: center;
     width: 86%;
 }
@@ -71,7 +79,5 @@ pageheader p {
 
 footer {
     color: hsl(0, 51%, 90%);
-    margin: 1em;
     position: relative;
-    top: 5em;
 }
