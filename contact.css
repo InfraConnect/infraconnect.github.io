@@ -13,8 +13,7 @@ contact {
 }
 
 location p, contact p, contact a {
-    background-color: #be3e3e;
-    color: #fff5ef;
+    color: hsl(23, 100%, 97%);
     font-size: 1.4em;
     margin: 0.8em;
     overflow-x: hidden;
@@ -24,7 +23,7 @@ location p, contact p, contact a {
 
 visit, map, call, fax, email {
     align-content: center;
-    background-color: #be3e3e;
+    background-color: hsla(0, 51%, 49%, 0.8);
     display: flex;
     flex-wrap: wrap;
     height: 100%;
@@ -41,7 +40,6 @@ call, fax, email {
 }
 
 img {
-    background-color: #be3e3e;
     height: 50px;
     margin-top: 0.8em;
 }
