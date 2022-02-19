@@ -1,45 +1,54 @@
 /*Contact Page*/
 
-location, contact {
+/*Section Styles*/
+.pagebanner {
+    background-image: url("contact.jpg");
+}
+
+.location, .contact {
     align-content: center;
     display: inline-flex;
     height: 450px;
-    margin: 2em;
-    width: 95%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
-contact {
+.contact {
     height: 300px;
 }
 
-location p, contact p, contact a {
+.location p, .contact p, .contact a {
     color: hsl(23, 100%, 97%);
     font-size: 1.4em;
-    margin: 0.8em;
+    margin-top: 0.8em;
     overflow-x: hidden;
     text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
-visit, map, call, fax, email {
+/*Content Styles*/
+
+.visit, .info{
     align-content: center;
     background-color: hsla(0, 51%, 49%, 0.8);
+    border: 0.05em solid hsl(0, 100%, 10%);
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 40%;
 }
 
-call, fax, email {
+.info {
     width: 23%;
-}
-
-.title {
-    font-size: 1.8em;
 }
 
 img {
     height: 50px;
     margin-top: 0.8em;
+}
+
+.contact a:hover {
+    color: hsl(0, 100%, 10%);
 }
