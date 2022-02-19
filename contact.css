@@ -60,6 +60,7 @@
 .hours {
     background-color: hsla(0, 90%, 10%, 0.8);
     border: 0.05em solid hsl(0, 100%, 10%);
+    margin-top: 2em;
 }
 
 img {
