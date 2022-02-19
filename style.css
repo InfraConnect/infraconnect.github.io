@@ -15,6 +15,12 @@ body {
     background-size: cover;
 }
 
+a {
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    margin: 5px;
+}
+
 * a:hover {
     color: hsl(0, 72%, 62%);
 }
@@ -38,12 +44,6 @@ header {
 header h2, nav {
     background-color: transparent;
     margin: 10px;
-}
-
-header a {
-    background-color: transparent;
-    color: hsl(0, 0%, 100%);
-    margin: 5px;
 }
 
 /*Page Banner*/
@@ -82,9 +82,13 @@ header a {
 /*Footer Section*/
 
 footer {
-    color: hsl(0, 51%, 90%);
+    bottom: 0;
     position: fixed;
-    bottom: 0em
+}
+
+footer p {
+    color:hsl(0, 0%, 100%);
+    font-size: 0.8em;
 }
 
 /*Mobile View*/
