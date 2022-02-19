@@ -86,3 +86,11 @@ footer {
     position: fixed;
     bottom: 0em
 }
+
+/*Mobile View*/
+
+@media screen and (max-width: 800px) {
+    .content {
+        margin-top: 0;
+    }
+}
