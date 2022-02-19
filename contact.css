@@ -23,8 +23,7 @@
 .contact p, .contact a, .location p, .hours p {
     color: hsl(23, 100%, 97%);
     font-size: 1.4em;
-    margin-top: 0.8em;
-    margin-bottom: 0.8em;
+    margin: 0.8em;
     overflow-x: hidden;
     text-align: center;
     width: 100%;
