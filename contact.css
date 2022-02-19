@@ -1,0 +1,68 @@
+/*Contact Page*/
+
+.pagebanner {
+    background-image: url("contact.jpg");
+}
+
+.contact, .location {
+    align-content: center;
+    display: inline-flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.contact {
+    height: 300px;
+}
+
+.location {
+    height: 450px;
+}
+
+.contact p, .contact a, .location p, .hours p {
+    color: hsl(23, 100%, 97%);
+    font-size: 1.4em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    overflow-x: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.hours p {
+    color: hsl(23, 100%, 97%);
+    font-size: 1em;
+}
+
+.contact a:hover {
+    color: hsl(0, 100%, 10%);
+}
+
+.info, .visit, .hours {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+}
+
+.info {
+    background-color: hsla(0, 62%, 29%, 0.8);
+    border: 0.05em solid hsl(0, 100%, 10%);
+    width: 25%;
+}
+
+.visit {
+    width: 50%;
+}
+
+.hours {
+    background-color: hsla(0, 90%, 10%, 0.8);
+    border: 0.05em solid hsl(0, 100%, 10%);
+}
+
+img {
+    height: 50px;
+    margin-top: 0.8em;
+}
