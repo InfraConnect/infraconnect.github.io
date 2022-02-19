@@ -15,8 +15,8 @@ body {
     background-size: cover; 
 }
 
-a:hover {
-    color: hsl(0, 100%, 8%);
+* a:hover {
+    color: hsl(0, 72%, 62%);
 }
 
 /*Header Section*/
@@ -48,36 +48,39 @@ header a {
 
 /*Page Banner*/
 
-pagebanner p {
-    background-color: hsla(0, 95%, 7%, 0.5);
-    background-image: url('banner.jpg');
+.pagebanner {
     background-repeat: no-repeat;
     background-size: cover;
-    color: hsl(0, 0%, 100%);
+    border-bottom: 0.03em solid hsl(0, 100%, 10%);
+    color: hsl(168, 100%, 99%);
     font-size: 4em;
-    height: 5em;
-    line-height: 5em;
+    height: 300px;
     position: relative;
     text-align: center;
     top: 0.5em;
     width: 100%;
 }
 
-/*Page Header*/
+.pagebanner #infraconnect {
+    font-size: 0.4em;
+    position: relative;
+    top: 3em;
+}
 
-pageheader p {
-    color: hsl(0, 0%, 100%);
-    font-size: 3.2em;
-    height: 4em;
-    line-height: 4em;
-    margin-top: 1.2em;
-    text-align: center;
-    width: 86%;
+.pagebanner p {
+    font-size: 1em;
+    position: relative;
+    top: 1.4em;
+}
+
+/*Main Content Section*/
+
+.content {
+    margin-top: 3.2em;
 }
 
 /*Footer Section*/
 
 footer {
     color: hsl(0, 51%, 90%);
-    position: relative;
 }
