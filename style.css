@@ -21,8 +21,12 @@ a {
     margin: 5px;
 }
 
-* a:hover {
+a:hover {
     color: hsl(0, 72%, 62%);
+}
+
+a:focus {
+    color:hsl(0, 0%, 100%);
 }
 
 /*Header Section*/
@@ -49,6 +53,7 @@ header h2, nav {
 /*Page Banner*/
 
 .pagebanner {
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 0.03em solid hsl(0, 100%, 10%);
