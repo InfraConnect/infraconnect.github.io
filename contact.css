@@ -66,6 +66,8 @@ img {
     margin-top: 0.8em;
 }
 
+/*Mobile View*/
+
 @media screen and (max-width: 800px) {
     .contact, .location {
         display: block;
@@ -79,12 +81,8 @@ img {
         width: 100%;
     }
 
-    .info {
+    .info, .visit {
         padding: 1em 0;
-    }
-
-    .visit {
-        margin-bottom: 1em;
     }
 
     .hours {
