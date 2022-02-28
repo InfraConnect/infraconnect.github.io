@@ -1,0 +1,38 @@
+/*Contact Page*/
+
+.contact, .location {
+    align-content: center;
+    justify-content: space-around;
+    margin: 2.5em 0;
+}
+
+.contact p, .contact a, .location p, .hours p {
+    font-size: 1.4em;
+    overflow-x: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.hours p {
+    font-size: 1em;
+}
+
+.contact a:hover {
+    color: hsl(0, 100%, 10%);
+}
+
+.info, .visit, .hours {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4em 1em;
+}
+
+.visit,.hours {
+    padding: 1em 0;
+}
+
+.info, .hours {
+    border: 0.05em solid hsl(0, 100%, 10%);
+}
